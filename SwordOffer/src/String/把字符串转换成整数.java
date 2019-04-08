@@ -1,4 +1,4 @@
-package SwordOffer.src.Array;
+package String;
 
 public class 把字符串转换成整数 {
 

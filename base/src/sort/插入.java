@@ -1,6 +1,6 @@
 package sort;
 
-public class Insertsort {
+public class 插入 {
 
     public void sort(int[] a){
 

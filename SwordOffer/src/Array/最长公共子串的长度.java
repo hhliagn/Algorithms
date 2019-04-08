@@ -1,3 +1,5 @@
+package Array;
+
 public class 最长公共子串的长度 {
 
     public static void main(String[] args)  {

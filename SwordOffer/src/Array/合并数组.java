@@ -1,6 +1,6 @@
-package 编程题;
+package Array;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 import java.util.Arrays;
 
 public class 合并数组 {

@@ -1,4 +1,4 @@
-package Array;
+package sort;
 
 public class 二分查找 {
 

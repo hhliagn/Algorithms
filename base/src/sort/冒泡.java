@@ -1,6 +1,6 @@
 package sort;
 
-public class BubbleSort {
+public class 冒泡 {
 
     public void sort(int[] a){
 

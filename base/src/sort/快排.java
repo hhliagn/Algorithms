@@ -1,6 +1,6 @@
 package sort;
 
-public class Quicksort {
+public class 快排 {
 
     //分治思想
     //选取一个切分点

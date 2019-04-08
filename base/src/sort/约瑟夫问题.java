@@ -1,6 +1,6 @@
-package Array;
+package sort;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 import java.util.Arrays;
 
 public class 约瑟夫问题 {

@@ -1,4 +1,4 @@
-package 编程题;
+package Array;
 
 public class 最长连续子字符串 {
 
