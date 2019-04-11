@@ -1,4 +1,4 @@
-package Array;
+package 数组;
 
 public class 最长公共子串的长度 {
 

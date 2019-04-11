@@ -1,8 +1,8 @@
-package Array;
+package 数组;
 
 import org.junit.Test;
 
-public class 连续子数组的最大和 {
+public class e连续子数组的最大和 {
 
     /**
      * HZ偶尔会拿些专业问题来忽悠那些非计算机专业的同学。
@@ -15,33 +15,18 @@ public class 连续子数组的最大和 {
 
     public int FindGreatestSumOfSubArray(int[] array) {
 
-        int sum=0;
-        int max=0;
-        int count=0;
-
-
-        for (int i=0;i<array.length;i++){
-
-            int h=array.length-i;
-            for (int j=0;j<=array.length-h;j++){
-                for (int k=j;k<j+h;k++){
-                    sum+=array[k];
-                }
-
-                if(count==0){
-                    max=sum;
-                    count+=1;
-                }
-
-                if(sum>max){
-                    max=sum;
-                }
-
-                sum=0;
-            }
+        if (array==null||array.length==0){
+            return 0;
         }
 
-        return max;
+        int greatestNum=Integer.MIN_VALUE;
+        int sum=0;
+        for (int val:array){
+            sum=sum<=0?val:sum+val;
+            greatestNum=Math.max(greatestNum,sum);
+        }
+
+        return greatestNum;
     }
 
     @Test

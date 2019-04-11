@@ -1,4 +1,4 @@
-package String;
+package 字符串;
 
 public class 表示数值的字符串 {
 

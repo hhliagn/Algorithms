@@ -1,4 +1,4 @@
-package String;
+package 字符串;
 
 public class 把字符串转换成整数 {
 
